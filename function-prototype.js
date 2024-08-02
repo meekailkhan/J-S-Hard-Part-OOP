@@ -26,3 +26,10 @@ console.log(user1.login())
 console.log(user1.score)
 console.log(user2.login())
 console.log(user2.score)
+
+function myFn(){
+    return "hello world"
+}
+
+myFn.prototype.key1 = [1,2,3,4,5,6,7]
+console.log(myFn.prototype)
