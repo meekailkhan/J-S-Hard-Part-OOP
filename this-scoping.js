@@ -1,3 +1,4 @@
+
 function UserCreate(name, score) {
     this.name = name;
     this.score = score;

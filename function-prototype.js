@@ -32,4 +32,6 @@ function myFn(){
 }
 
 myFn.prototype.key1 = [1,2,3,4,5,6,7]
-console.log(myFn.prototype)
+console.log(myFn.prototype);
+
+console.log("this is new add ")
