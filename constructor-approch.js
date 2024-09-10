@@ -32,3 +32,5 @@ const paidUser1 = new PaidUserCreator("Alyssa",8,25);
 
 paidUser1.sayName()
 console.log(paidUser1.name)
+paidUser1.increamentBalance();
+console.log(paidUser1.accountBalance) // 26
